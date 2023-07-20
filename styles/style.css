@@ -1,0 +1,522 @@
+/* =================common styles============== */
+
+/* font famely */
+
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,900&display=swap");
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Work Sans", sans-serif;
+}
+/* color section */
+.text-gradient {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 800px;
+}
+.text-grey-sm {
+  color: #534c64;
+  font-weight: 400;
+}
+.text-grey {
+  color: #534c64;
+  font-weight: 500;
+}
+.headin-green {
+  color: #0b0223;
+  font-weight: 700;
+}
+.Praimary-btn {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  background-color: #f144ae;
+  color: white;
+  border: none;
+  border-radius: 2rem;
+}
+
+/* hesder section */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 5rem;
+}
+.logo-part {
+  display: inline;
+}
+.logo-part h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.logo-part img {
+  width: 1.5rem;
+  height: 1rem;
+}
+#G {
+  color: rgb(228, 62, 145);
+}
+.menu-part > ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-part li {
+  list-style: none;
+  margin-left: 1rem;
+}
+.menu-part a {
+  text-decoration: none;
+  color: #3c354f;
+}
+.follow-bar {
+  width: 150px;
+  padding: 10px;
+  border-radius: 5px;
+  background: rgba(11, 2, 35, 0.055);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.follow-bar button {
+  border: none;
+  color: #3c354f;
+  background: transparent;
+}
+.follow-icon {
+  width: 1rem;
+  height: 1rem;
+  margin-left: 0.7rem;
+  background: transparent;
+}
+
+/* =================benner part============= */
+
+.banner {
+  display: flex;
+  text-align: left;
+  justify-content: left;
+  height: 400px;
+}
+.banner-container {
+  width: 50%;
+  padding: 50px 30px 30px 80px;
+  background-image: url(/images/Group\ 14.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.banner-img > img {
+  margin-right: 5rem;
+  height: 400px;
+}
+.banner-container > h2 {
+  color: #0b0223;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+#goat {
+  font-weight: 800;
+  font-size: 3rem;
+  margin: -15px;
+}
+#rgo-rogue-btn {
+  padding: 1rem 1.5rem;
+  background-color: #4ec5f7;
+}
+
+/* ===============main part=============== */
+
+/* gamer part */
+
+.gamer-part {
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 0%,
+    rgba(255, 66, 165, 0.03) 100%
+  );
+  padding: 1rem;
+}
+.gamer-img > img {
+  width: 400px;
+  height: auto;
+  padding: 20px 30px;
+}
+.gamer-conteiner {
+  text-align: right;
+  margin-right: 70px;
+  padding: 20px 10px 20px 80px;
+}
+.gamer-conteiner > h3 {
+  font-weight: 800;
+  font-size: 2rem;
+  margin: -10px;
+}
+/* ===========funny section============ */
+.funny-descrition {
+  margin: auto;
+  text-align: center;
+}
+.funny-video {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 2rem 100px;
+}
+.funny-imgs {
+  display: flex;
+  margin: auto;
+}
+.funny-img-box {
+  position: relative;
+  display: inline-block;
+  margin: 0.5rem;
+  width: 170px;
+  height: 220px;
+}
+.funny-img-box > img {
+  width: 170px;
+  height: 190px;
+}
+.play-btn {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-60%, -60%);
+  background-color: #ffffff;
+  border: none;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+/* ========instand play section======== */
+.instand-play {
+  display: flex;
+  margin: 4rem 4rem;
+  padding: 1rem 0rem;
+}
+.instand-contant {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  justify-content: center;
+}
+.instand-img {
+  position: relative;
+  margin: 30px 50px;
+}
+.instand-img-one > img {
+  width: 300px;
+  height: 350px;
+  margin-left: 40px;
+}
+.instand-img-two > img {
+  width: 120px;
+  height: 120px;
+  border: 2px solid white;
+  position: absolute;
+  top: 260px;
+}
+/* ==========anytime play=========== */
+.anytime-play {
+  display: flex;
+  margin: 4rem 4rem;
+  padding: 1rem 0rem;
+}
+.anytime-contant {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: center;
+}
+.anytime-img {
+  position: relative;
+  margin: 30px 50px;
+}
+.anytime-img-one > img {
+  width: 300px;
+  height: 350px;
+  margin-left: 40px;
+}
+.anytime-img-two > img {
+  width: 120px;
+  height: 120px;
+  border: 2px solid white;
+  position: absolute;
+  top: 260px;
+  left: 250px;
+}
+/* ========careers section========== */
+.careers {
+  display: flex;
+  background-color: #ff42a5;
+}
+.careers-contant {
+  padding: 30px 0px 30px 60px;
+}
+.careers-description {
+  color: white;
+  text-align: justify;
+}
+.careeas-short-des {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.text-right {
+  text-align: right;
+}
+.positions-btn {
+  padding: 1.5rem 2.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  background-color: #ffffff;
+  color: #ff42a5;
+  border: none;
+  border-radius: 35px;
+}
+.careers-img > img {
+  width: 450px;
+  height: 100%;
+}
+/* ============all-games============= */
+.all-games {
+  padding: 4rem;
+  background-color: rgb(248, 239, 220);
+}
+.all-games-divition {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.game-card {
+  display: flex;
+  justify-content: center;
+  margin: 0.5rem 1rem;
+  font-weight: 600;
+  padding: 10px 15px;
+  color: #0b0223;
+  background-color: #ffffff;
+  border-radius: 45px;
+}
+#bhejal {
+  color: #ff42a5;
+}
+/* =============foorer============ */
+
+.footer {
+  height: 450px;
+  background: #0b0223;
+}
+.logo-foter {
+  display: flex;
+  padding: 20px 0;
+  justify-content: center;
+  text-align: center;
+}
+.logo-foter img {
+  width: 25px;
+  height: 16px;
+}
+#amer {
+  color: #ffffff;
+}
+.footer-menu > ul {
+  padding: 0px 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+}
+.footer-menu li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.soushal-icon > ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #ffffff;
+}
+.soushal-icon > ul li {
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+}
+.last-menu > ul {
+  margin-top: 5px 100px;
+  padding: 0 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.last-menu > ul li {
+  list-style: none;
+}
+.last-menu a {
+  text-decoration: none;
+  color: gray;
+}
+.footer-des {
+  text-align: center;
+  color: gray;
+}
+
+@media screen and (max-width: 576px) {
+  /* common */
+  .text-gradient {
+    font-weight: 700;
+  }
+  .text-grey {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .text-grey-sm {
+    font-family: 0.8rem;
+  }
+  .Praimary-btn,
+  #rgo-rogue-btn {
+    padding: 0.7rem 1.3rem;
+    font-size: 0.8rem;
+  }
+  /* header */
+  .header {
+    padding: 0.5rem;
+    flex-direction: column;
+  }
+  .logo-part > h2 {
+    margin: 0;
+  }
+  .menu-part > ul {
+    margin: 0;
+    padding: 0.5rem;
+    flex-direction: column;
+  }
+  .menu-part > ul li {
+    margin-top: 0.5rem;
+  }
+  /* benner */
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .banner-container {
+    /* margin: 1rem; */
+    width: 70%;
+  }
+  .banner-container > h2 {
+    font-size: 1.2rem;
+  }
+  .banner-img > img {
+    width: 80%;
+    height: auto;
+    margin: 0;
+    border: 1rem solid #ffffff;
+  }
+  /* ========main part======== */
+  /* gamer section */
+  .gamer-part {
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  .gamer-img > img {
+    width: 80%;
+    margin-top: 250px;
+  }
+  .gamer-conteiner {
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    justify-content: center;
+  }
+  .gamer-conteiner > h4 {
+    margin-top: -1rem;
+  }
+  /* funny section */
+  .funny-video {
+    margin: 1rem;
+  }
+  .funny-imgs {
+    flex-direction: column;
+  }
+  .funny-img-box {
+    height: fit-content;
+  }
+  /* instand play section */
+  /* anytime play section */
+  .instand-play {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+  }
+  .instand-contant,
+  .anytime-contant {
+    margin-top: 10px;
+    padding: 1rem;
+    text-align: center;
+  }
+  .anytime-contant > h3,
+  .instand-contant > h3 {
+    margin-bottom: -5px;
+  }
+  .anytime-img,
+  .instand-img {
+    margin: 0;
+    padding: 0 0 10px 20px;
+    height: fit-content;
+  }
+  .anytime-play {
+    margin: 0;
+    padding: 0;
+    flex-direction: column-reverse;
+  }
+  .anytime-img {
+    padding: 20px 10px 0 0;
+  }
+  /* careers section */
+  .careers {
+    margin-top: 3.5rem;
+    padding: 0;
+    flex-direction: column;
+  }
+  .careers-contant {
+    margin: ;
+    padding: 15px;
+  }
+  .careers-img {
+    margin-left: 10px;
+  }
+  .careers-img > img {
+    width: 90%;
+    justify-content: center;
+  }
+  /* all game section */
+  .all-games {
+    padding: 1rem 2rem;
+    margin: auto;
+  }
+  .all-games-divition {
+    flex-direction: column;
+  }
+  .game-card {
+    width: 250px;
+    justify-content: center;
+  }
+  /* ================footer part================== */
+  .footer-menu>ul{
+    margin-left: 10px;
+    flex-wrap: wrap;
+  }
+  .follow-icon>ul{
+    flex-wrap: wrap;
+    margin-left: 10px;
+  }
+  .last-menu>ul{
+    flex-wrap: wrap;
+    margin-right: 10px;
+  }
