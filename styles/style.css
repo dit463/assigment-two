@@ -406,16 +406,16 @@ body {
     flex-direction: column-reverse;
   }
   .banner-container {
-    /* margin: 1rem; */
     width: 70%;
+    padding-top: 20px;
   }
   .banner-container > h2 {
     font-size: 1.2rem;
   }
   .banner-img > img {
-    width: 80%;
+    padding-left: 10px;
+    width: 65%;
     height: auto;
-    margin: 0;
     border: 1rem solid #ffffff;
   }
   /* ========main part======== */
